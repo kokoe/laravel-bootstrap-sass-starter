@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@import "functions";
+@import "variables";
+@import "mixins";
+
+// Bootstrap settings
+// @see https://getbootstrap.com/docs/4.1/getting-started/theming/#sass
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Import all
+@import "~bootstrap/scss/bootstrap";
+
+// Grid only
+// @import "~bootstrap/scss/bootstrap-grid.scss";
+
+// Reboot only
+// @import "~bootstrap/scss/bootstrap-reboot.scss";
+
+// When importing only what you need
+// @import "~bootstrap/scss/reboot";
+// @import "~bootstrap/scss/type";
+// @import "~bootstrap/scss/images";
+// @import "~bootstrap/scss/grid";
+// @import "~bootstrap/scss/buttons";
+// @import "~bootstrap/scss/utilities";
+
+// Use bootstrap mixin
